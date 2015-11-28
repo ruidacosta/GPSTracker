@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/gps_conf_item"
+        android:icon="@drawable/ic_my_location_white_48dp"
+        android:title="@string/gps_conf"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/transport_submenu"
+        android:title="@string/transport_type"
+        android:icon="@drawable/ic_map_white_48dp"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/car_motorbike_item"
+                android:icon="@drawable/ic_directions_car_white_48dp"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/car_motorbike"/>
+
+            <item
+                android:id="@+id/bike_item"
+                android:icon="@drawable/ic_directions_bike_white_48dp"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/bike"/>
+
+            <item
+                android:id="@+id/run_item"
+                android:icon="@drawable/ic_directions_run_white_48dp"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/run"/>
+
+            <item
+                android:id="@+id/walk_item"
+                android:icon="@drawable/ic_directions_walk_white_48dp"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/walk"/>
+        </menu>
+    </item>
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/more_item"
+        android:icon="@drawable/ic_more_vert_white_48dp"
+        android:showAsAction="ifRoom"
+        android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/last_track_item"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/last_track"/>
+            <item android:id="@+id/settings_item"
+                android:title="@string/settings"
+                android:icon="@drawable/ic_settings_white_48dp"
+                android:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

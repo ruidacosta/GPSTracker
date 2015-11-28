@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPSTracker</string>
+    <string name="gps_conf">GPS Settings</string>
+    <string name="transport_type">Transport Type</string>
+    <string name="car_motorbike">Car / Motorbike</string>
+    <string name="bike">Bike</string>
+    <string name="run">Running</string>
+    <string name="walk">Walking</string>
+    <string name="more">More</string>
+    <string name="last_track">Last Tracks</string>
+    <string name="settings">Settings</string>
+    <string name="profiles_title">Profiles</string>
+    <string name="pref_car_moto_summary">Car / Motorcycle</string>
+    <string name="pref_car_moto_title">Car/Motorcycle</string>
+    <string name="pref_bike_summary">Bike</string>
+    <string name="pref_bike_title">Bike</string>
+    <string name="pref_run_summary">Runningsummrar</string>
+    <string name="pref_run_title">Running</string>
+    <string name="pref_walk_summary">Walking</string>
+    <string name="pref_walk_title">Walking</string>
+    <string name="_10_seconds">10 seconds</string>
+    <string name="_20_seconds">20 seconds</string>
+    <string name="_30_seconds">30 seconds</string>
+    <string name="_40_seconds">40 seconds</string>
+    <string name="_50_seconds">50 seconds</string>
+    <string name="_60_seconds">60 seconds</string>
+    <string name="_90_seconds">90 seconds</string>
+    <string name="_120_seconds">120 seconds</string>
+    <string name="profile_label">Profile:</string>
+    <string name="start_at_label">Start at:</string>
+    <string name="start_at_not_started">Not started</string>
+    <string name="gps_status_label">GPS status:</string>
+    <string name="gps_status_ok">OK</string>
+    <string name="gps_status_searching">Searching&#8230;</string>
+    <string name="gps_status_no_signal">No signal</string>
+    <string name="button_start_stop_description">Start capture</string>
+    <!-- PREFERENCES KEYS -->
+    <string name="pref_car_moto_profile">pref_car_moto_profile</string>
+</resources>

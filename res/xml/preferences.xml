@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/profiles_title"
+        android:key="pref_key_storage_settings">
+        <ListPreference
+            android:key="pref_car_moto_profile"
+            android:summary="%s"
+            android:title="@string/pref_car_moto_title"
+            android:entries="@array/car_times"
+            android:entryValues="@array/car_times_values"
+            android:defaultValue="10" />
+        <ListPreference
+            android:key="pre_bike_profile"
+            android:summary="%s"
+            android:title="@string/pref_bike_title"
+            android:entries="@array/bike_times"
+            android:entryValues="@array/bike_times_vales"
+            android:defaultValue="20" />
+        <ListPreference
+            android:key="pref_run_profile"
+            android:summary="%s"
+            android:title="@string/pref_run_title"
+            android:entries="@array/run_times"
+            android:entryValues="@array/run_times_values"
+            android:defaultValue="20" />
+        <ListPreference
+            android:key="pref_walk_profile"
+            android:summary="%s"
+            android:title="@string/pref_walk_title"
+            android:entries="@array/walk_times"
+            android:entryValues="@array/walk_times_values"
+            android:defaultValue="60" />
+    </PreferenceCategory>
+</PreferenceScreen>
