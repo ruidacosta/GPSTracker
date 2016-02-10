@@ -1,2 +1,2 @@
 # GPSTracker
-Create routes using GPS location.
+Create routes using GPS location. Android Apk.
